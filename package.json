@@ -1,13 +1,13 @@
 {
-  "name": "cerebro-plugin",
+  "name": "cerebro-sleep",
   "version": "0.0.2",
-  "description": "",
+  "description": "Put your mac to sleep with Cerebro",
   "license": "MIT",
-  "repository": "KELiON/cerebro-plugin",
+  "repository": "markgandolfo/cerebro-sleep",
   "author": {
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
+    "name": "Mark Gandolfo",
+    "email": "mark@gandolfo.com.au",
+    "url": "http://www.markgandolfo.com"
   },
   "engines": {
     "node": ">=4"
@@ -15,7 +15,6 @@
   "scripts": {
     "build": "webpack && babili dist -d dist --compact --no-comments",
     "debug": "./scripts/debug",
-    "debug:windows": "scripts\\debug.bat",
     "prepublish": "rimraf ./dist && npm run build"
   },
   "main": "dist/index.js",
